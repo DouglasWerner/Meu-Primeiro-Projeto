@@ -1,0 +1,170 @@
+Css
+
+(.) para relacionar com Classe;
+( # ) id;
+( * ) Tudo no documento vai seguir o que for colocado;
+
+	Classe pode servir para mais de um elemento
+	id é único para somente 1 elemento
+
+Atividades Matheus
+
+1)Escreva os algoritmos abaixo:
+
+a) Que imprima todos os números multiplos de 5, no intervalo fehado de 1 à 500:
+R= 
+	var i = 0
+	let multiplosDe5 = 0
+	let multiplicador = 5
+	for(i = 0; i < 500; i++){
+	   if(i % 5 === 0) {
+		multiplosDe5++ * multiplicador
+	  }
+	  console.log(multiplosDe5 * Multiplicador)
+	}
+	
+
+b) Que imprima os 100 primeiros números ímpares:
+R= 	Douglas
+	for(var i = 1; i < 200; i = i + 2)
+	console.log(i)
+
+
+	Matheus
+	let contadorDeNumerosImpares = 0
+	let contador = 0
+	while(contadorDeNumerosImpares < 100) {
+	     if(contador % 2 != 0) {
+		contadorDeNumerosImpares++
+		console.log(contador + '\n')
+	     }
+	     contador++
+	}
+
+c) Que imprima o quadrado dos números no intervalo fechado de 1 à 20:
+R= 
+	var i = 0
+	let quadradoDosNumeros = 0
+	for(i = 1; i <= 20; i++){
+  	   if(i * i)
+        quadradoDosNumeros++ * i
+  console.log(quadradoDosNumeros * quadradoDosNumeros)
+}
+
+d) Que imprima todos os números de 1 à 100, inclusive, a soma de todos eles:
+R=
+	var i = 1
+	var int = 0
+	let soma = int
+	for(i = 1; i <= 100; i++){
+  	    if(i <= 100){
+    	     int = int + 1
+    	     console.log(i)
+    	     soma = soma + i
+    	  }
+  	}
+  console.log('A soma dos números do intervalo de 1 à 100 é:', soma)
+
+
+2)Usando html e javascript
+
+a) Desenvolva um formulário onde o usuário pode informar um número e escolher se ele quer mostrar metade digitando em um input
+ou o dobro a partir disso, mostre em uma label o resultado esperado:
+
+
+const nomes = ["maria", "Manu", "hudson", "victor", "Yasmin", "Felipe"];   --> Array
+
+Para adicionar um nome no array usa-se o método push:
+
+nomes.push("Wallace");
+nomes.push("Gabriel");
+nomes.push("Fernanda");
+nomes.push("Renata");
+
+console.log(nomes); --> vai aparecer junto os nomes que foram adicionados.
+
+console.log(nomes[2]); --> Vai printar o nome que esteja com o índice (chave numerica) de número 2 (sempre começa do 0, sendo assim quem vai ser printado é o hudson)
+
+Em inspecionar vai printar os nomes e o (length) que é a  propriedade do array, mostra a quantidade de objetos dentro do array.
+
+Para adicionar alguns detalhes na lista:
+
+Usa-se o objeto literal
+
+const nomes = ["maria", "Manu", "hudson", "victor", "Yasmin", "Felipe"];
+
+console.log(nomes);
+
+const manu = {
+    nome: "Manu",
+    idade: "20",
+    cidade: "curitiba"
+};
+console.log(manu);
+
+const maria = {
+    nome: "Maria",
+    idade: "21",
+    cidade: "Presidente Prudente"
+}
+console.log(maria);
+
+const pessoas = [];
+
+pessoas.push(manu, maria);
+
+console.log(pessoas.maria);
+
+//Estrutura de condicional/Comparações
+
+
+//Estrutura de condicional/Comparações
+
+//Sintaxe
+
+const estouComSono = false
+
+if (estouComSono === true){
+    console.log("Vou Dormir")
+}
+
+else {
+    console.log("Vou estudar")
+}
+
+//Condição de número
+
+const manu = {
+    nome: "Manu",
+    idade: 18,
+    cidade: "curitiba"
+};
+const maria = {
+    nome: "Maria",
+    idade: 21,
+    cidade: "Presidente Prudente"
+}
+
+if (manu.idade >= 18){
+    console.log("Parabéns");
+}
+else {
+    console.log("Precisa crescer mais");
+}
+
+const dobro = document.getElementById('adicionarDobro');
+console.log(dobro);
+
+const metade = document.getElementById('adicionarMetade');
+console.log(metade);
+
+// Eventos
+function clickNoBotao(evento) {
+    console.log(evento)
+}
+
+dobro.addEventListener('click', clickNoBotao);
+
+metade.addEventListener('click', clickNoBotao);
+
+

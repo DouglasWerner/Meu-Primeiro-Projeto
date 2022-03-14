@@ -1,0 +1,144 @@
+body {font-family: 'Quicksand', sans-serif;
+
+}
+
+header{
+  background-color: rgb(39, 39, 39);
+  color: aqua;
+  padding: 30px 0;
+}
+header .container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 500px;
+}
+header h1 {
+  color: aqua;
+  font-size: 50px;
+  margin: 5px 0 0 0;
+}
+header h2 {
+  font-size: 30px;
+  margin: 0 0 10px 0;
+}
+header h4 {
+  color: aqua;
+  font-size: 20px;
+}
+main {
+  display: flex;
+  height: 100vh;
+}
+
+main section {
+  width: 50%;
+  padding: 10px 10px;
+  
+}
+.secaoFormulario {
+  background-color: rgb(39, 39, 39);
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+.secaoFormulario input {
+  font-size: 20px;
+  width: 500px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px 10px auto;
+}
+
+.secaoFormulario button {
+  display: block;
+  margin: 0 120px 5px auto;
+  box-sizing: border-box;
+  background-color: white;
+  border: 2px solid #1403fc;
+  border-radius: 5px;
+  color: #1403fc;
+  cursor: pointer;
+  font-size: 10px;
+  margin: 0 5px 5px auto;
+  padding: 10px 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.listaSolicitacao {
+  padding: 100px 20px;
+  width: 100%;
+  max-width: 1025px;
+  background-color: rgb(47, 56, 184);
+}
+
+.listaSolicitacao_lista{
+  background-color: rgba(3, 31, 105, 0.1);
+  width: 100%;
+  max-width: 450px;
+}
+.listaSolicitacao_lista li{
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.listaSolicitacao_lista li button{
+  float: right;
+  background-image: url(../img/lixeira.png);
+  width: 30px;
+  height: 30px;
+  background-size: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.listaSolicitacao_lista li h2{
+  font-size: 20px;
+  font-weight: 600;
+}
+.listaSolicitacao_lista li p{
+  margin: 5px 0;
+}
+.listaSolicitacao_lista li span{
+}
+
+#adicionar:hover, .adicionar:focus {
+  color: black;
+}
+
+#Dobro {
+  font-size: 15px;
+  border-color: blue;
+  color: #fff;
+  box-shadow: 0 0 40px 40px blue inset, 0 0 0 0 blue;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  margin: 10px 10px 0 auto;
+  padding: 10px 178px;
+}
+
+#Dobro:hover {
+    color: black;
+    box-shadow: 0 0 10px 0 blue inset, 0 0 10px 4px blue;
+}
+
+#Metade {
+  font-size: 15px;
+  border-color: red;
+  color: #fff;
+  box-shadow: 0 0 40px 40px red inset, 0 0 0 0 red;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  margin: 10px 10px 0 auto;
+  padding: 10px 174px;
+}
+
+#Metade:hover {
+  color: black;
+  box-shadow: 0 0 10px 0 red inset, 0 0 10px 4px red;
+};
+
